@@ -25,7 +25,7 @@ h3, p {
     
         margin: 0 auto;
     background-color: #000000;
-        background: linear-gradient(228.52deg, rgba(111, 102, 102, 0.9) 4.71%, rgba(16, 15, 15, 0.9) 39.77%, rgba(16, 15, 15, 0.9) 44.21%);
+        background: linear-gradient(228.52deg, rgba(111, 102, 102, 0.9) 1.71%, rgba(0, 0, 0, 0.9) 39.77%, rgba(0, 0, 0, 0.9) 44.21%);
 }
 .container {
     width: 1280px;
@@ -178,6 +178,7 @@ h3, p {
         letter-spacing: 0em;
         text-align: left;
        color: rgba(243, 243, 243, 1);
+    cursor: pointer;
        
 }
 
@@ -227,17 +228,24 @@ h3, p {
 /* ---------------------------sector2-------------------------- */
 .block-two {
     /* padding-top: 35px; */
-    padding-left: 180px;
+    /* background-color: rgb(8, 58, 41); */
+    padding-top: 100px;
+    
 }
 
 .divone-blocktwo {
     display: flex;
     align-items: center;
+    gap: 40px;
+    margin-left: 130px;
 }
 
 .divtwo-blocktwo {
     display: flex;
     align-items: center;
+    gap: 40px;
+    margin-left: 220px;
+    margin-top: -105px;
 }
 
 .div-textone-blocktwo {
@@ -256,7 +264,7 @@ h3, p {
 }
 
 .title-blocktwo {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
         font-size: 32px;
         font-weight: 600;
         line-height: 39px;
@@ -266,7 +274,7 @@ h3, p {
 }
 
 .text-blocktwo {
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
@@ -287,6 +295,159 @@ h3, p {
         line-height: 24px;
         letter-spacing: 0em;
         color: rgba(243, 243, 243, 1);
+        cursor: pointer;
 }
 
 /* ---------------------------sector2-------------------------- */
+/* ---------------------------sector3-------------------------- */
+.block-three {
+    /* background-color: rgb(0, 43, 28); */
+    padding-top: 92px;
+    padding-left: 148px;
+    padding-bottom: 94px;
+
+}
+
+.text-block-three {
+    
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(243, 243, 243, 1);
+}
+.divone-block-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
+
+.divzero-block-three {
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+}
+
+
+/* ---------------------------sector3-------------------------- */
+/* ---------------------------sector4-------------------------- */
+.block-four {
+    /* background-color: rgb(0, 43, 28); */
+    padding-top: 31px;
+    padding-bottom: 45px;
+}
+
+.div-block-four {
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------------sector4-------------------------- */
+/* ---------------------------sector4-------------------------- */
+.footer-container {
+    /* background-color: rgb(0, 43, 28); */
+    display: flex;
+    flex-direction: column;
+    padding-left: 85px;
+    padding-top: 20px;
+}
+
+.div-zero-footer {
+    display: flex;
+        align-items: center;
+        gap: 180px;
+}
+
+.div-logo-footer {
+    display: block;
+    /* background-color: aquamarine; */
+}
+
+.div-nav-footer {
+    display: block;
+    /* background-color: rgb(119, 67, 3); */
+}
+.list-footer {
+display: flex;
+flex-direction: column;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.nav-link-footer {
+font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(243, 243, 243, 1);
+    text-decoration: none;
+}
+
+.div-link-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    /* background-color: blue; */
+}
+
+.link-footer {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(243, 243, 243, 1);
+        
+        
+}
+
+.image-footer {
+    margin-right: 5px;
+}
+
+.div-social-footer {
+    display: block;
+    /* background-color: brown; */
+}
+
+.social-footer {
+    display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-left: 0;
+        margin: 0;
+}
+
+.text-footer {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        color: rgba(151, 151, 151, 1);  
+}
+
+.link-footer-text {
+    
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0px;
+        color: rgba(255, 255, 255, 1);
+}
+/* ---------------------------sector4-------------------------- */
