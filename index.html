@@ -18,6 +18,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -49,7 +59,8 @@
           <div class="div-zero-block-one">
             <div class="div-one-block-one">
               <div class="div-title">
-                <img src="./image/palka.svg" alt="" />
+                <img class="palka-big" src="./image/palka.svg" alt="" />
+                <img class="palka-small" src="./image/palka-mal.svg" alt="" />
                 <h1 class="title-block-one">CUCINA DI CATHERINA</h1>
               </div>
               <p class="text-block-one">
@@ -61,18 +72,28 @@
                 <p class="number-block-one">14</p>
                 <p class="text-number">different tastes</p>
                 <img src="./image/palka-mal.svg" alt="" />
+
                 <p class="number-block-one">31</p>
-                <p class="text-number">factories around the world</p>
+                <div class="factories">
+                  <p class="text-number">factories around the world</p>
+                </div>
               </div>
             </div>
             <div class="div-two-block-one">
               <img src="./image/png/ketchup.png" alt="" />
             </div>
-            <div>
+            <img
+              class="ketchup-simple"
+              src="./image/png/ketchup-simple.png"
+              alt=""
+            />
+            <img class="frame" src="./image/png/frame.png" alt="" />
+            <div class="div-three-block-one">
               <ul class="social-block-one">
                 <li>
                   <a href="https://web.telegram.orgg">
                     <img
+                      class="social-svg"
                       src="./image/telegram.svg"
                       alt=""
                       width="24"
@@ -83,6 +104,7 @@
                 <li>
                   <a href="https://www.instagram.com/">
                     <img
+                      class="social-svg"
                       src="./image/instagram.svg"
                       alt=""
                       width="24"
@@ -93,6 +115,7 @@
                 <li>
                   <a href="https://www.youtube.com/">
                     <img
+                      class="social-svg"
                       src="./image/youtube.svg"
                       alt=""
                       width="24"
@@ -103,6 +126,7 @@
                 <li>
                   <a href="https://twitter.com/">
                     <img
+                      class="social-svg"
                       src="./image/twitter.svg"
                       alt=""
                       width="24"
@@ -115,30 +139,114 @@
           </div>
         </section>
         <section class="container block-two">
-          <div class="divone-blocktwo">
-            <div>
-              <img src="./image/png/img_circle_one.png" alt="" />
+          <div class="slider autoplay">
+            <div class="slider__img">
+              <div class="divone-blocktwo">
+                <div class="slider__img">
+                  <img
+                    class="image-block-two"
+                    src="./image/png/img_circle_one.png"
+                    alt=""
+                  />
+                </div>
+                <div class="div-textone-blocktwo">
+                  <h3 class="title-blocktwo">Classic sauce</h3>
+                  <p class="text-blocktwo">
+                    The most delicate taste of tomatoes, combined with branded
+                    spices and white wine, will make your dish incredibly tasty.
+                  </p>
+                  <botton class="botton-blocktwo">Buy now</botton>
+                </div>
+              </div>
+              <div class="divtwo-blocktwo">
+                <div class="div-texttwo-blocktwo">
+                  <h3 class="title-blocktwo">Spicy sauce</h3>
+                  <p class="text-blocktwo">
+                    For thrill-seekers, we added hot chili pepper to our sauce,
+                    it also reveals all the tastes and aromas of the sauce well.
+                  </p>
+                  <botton class="botton-blocktwo">Buy now</botton>
+                </div>
+                <div>
+                  <img
+                    class="image-block-two"
+                    src="./image/png/img_circle_two.png"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
-            <div class="div-textone-blocktwo">
-              <h3 class="title-blocktwo">Classic sauce</h3>
-              <p class="text-blocktwo">
-                The most delicate taste of tomatoes, combined with branded
-                spices and white wine, will make your dish incredibly tasty.
-              </p>
-              <botton class="botton-blocktwo">Buy now</botton>
+            <div class="slider__img">
+              <div class="divone-blocktwo">
+                <div>
+                  <img
+                    class="image-block-two"
+                    src="./image/png/img_circle_three.png"
+                    alt=""
+                  />
+                </div>
+                <div class="div-textone-blocktwo">
+                  <h3 class="title-blocktwo">Classic sauce</h3>
+                  <p class="text-blocktwo">
+                    The most delicate taste of tomatoes, combined with branded
+                    spices and white wine, will make your dish incredibly tasty.
+                  </p>
+                  <botton class="botton-blocktwo">Buy now</botton>
+                </div>
+              </div>
+              <div class="divtwo-blocktwo">
+                <div class="div-texttwo-blocktwo">
+                  <h3 class="title-blocktwo">Spicy sauce</h3>
+                  <p class="text-blocktwo">
+                    For thrill-seekers, we added hot chili pepper to our sauce,
+                    it also reveals all the tastes and aromas of the sauce well.
+                  </p>
+                  <botton class="botton-blocktwo">Buy now</botton>
+                </div>
+                <div>
+                  <img
+                    class="image-block-two"
+                    src="./image/png/img_circle_four.png"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="divtwo-blocktwo">
-            <div class="div-texttwo-blocktwo">
-              <h3 class="title-blocktwo">Spicy sauce</h3>
-              <p class="text-blocktwo">
-                For thrill-seekers, we added hot chili pepper to our sauce, it
-                also reveals all the tastes and aromas of the sauce well.
-              </p>
-              <botton class="botton-blocktwo">Buy now</botton>
-            </div>
-            <div>
-              <img src="./image/png/img_circle_two.png" alt="" />
+            <div class="slider__img">
+              <div class="divone-blocktwo">
+                <div>
+                  <img
+                    class="image-block-two"
+                    src="./image/png/img_circle_five.png"
+                    alt=""
+                  />
+                </div>
+                <div class="div-textone-blocktwo">
+                  <h3 class="title-blocktwo">Classic sauce</h3>
+                  <p class="text-blocktwo">
+                    The most delicate taste of tomatoes, combined with branded
+                    spices and white wine, will make your dish incredibly tasty.
+                  </p>
+                  <botton class="botton-blocktwo">Buy now</botton>
+                </div>
+              </div>
+              <div class="divtwo-blocktwo">
+                <div class="div-texttwo-blocktwo">
+                  <h3 class="title-blocktwo">Spicy sauce</h3>
+                  <p class="text-blocktwo">
+                    For thrill-seekers, we added hot chili pepper to our sauce,
+                    it also reveals all the tastes and aromas of the sauce well.
+                  </p>
+                  <botton class="botton-blocktwo">Buy now</botton>
+                </div>
+                <div>
+                  <img
+                    class="image-block-two"
+                    src="./image/png/img_circle_six.png"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -150,6 +258,7 @@
               frameborder="0"
             ></iframe> -->
               <img
+                class="image-block-three"
                 src="./image/png/img_video_one.png"
                 alt=""
                 width="442"
@@ -157,9 +266,10 @@
               />
               <h3 class="text-block-three">Bell pepper pasta</h3>
             </div>
-            <div class="divone-block-three">
+            <div class="divtwo-block-three">
               <!-- <iframe src="" frameborder="0"></iframe> -->
               <img
+                class="image-block-three"
                 src="./image/png/img_video_two.png"
                 alt=""
                 width="442"
@@ -170,13 +280,34 @@
           </div>
         </section>
         <section class="container block-four">
-          <div class="div-block-four">
-            <img
-              src="./image/png/big_img_one.png"
-              alt=""
-              width="1038"
-              height="504"
-            />
+          <div class="slider autoplay div-block-four">
+            <div class="slider__img">
+              <img
+                class="img-block-four"
+                src="./image/png/big_img_one.png"
+                alt=""
+                width="1038"
+                height="504"
+              />
+            </div>
+            <div class="slider__img">
+              <img
+                class="img-block-four"
+                src="./image/png/big_img_two.png"
+                alt=""
+                width="1038"
+                height="504"
+              />
+            </div>
+            <div class="slider__img">
+              <img
+                class="img-block-four"
+                src="./image/png/big_img_three.png"
+                alt=""
+                width="1038"
+                height="504"
+              />
+            </div>
           </div>
         </section>
       </main>
@@ -229,6 +360,7 @@
                 <li>
                   <a href="https://web.telegram.orgg">
                     <img
+                      class="image-social-footer"
                       src="./image/telegram.svg"
                       alt=""
                       width="24"
@@ -239,6 +371,7 @@
                 <li>
                   <a href="https://www.instagram.com/">
                     <img
+                      class="image-social-footer"
                       src="./image/instagram.svg"
                       alt=""
                       width="24"
@@ -249,6 +382,7 @@
                 <li>
                   <a href="https://www.youtube.com/">
                     <img
+                      class="image-social-footer"
                       src="./image/youtube.svg"
                       alt=""
                       width="24"
@@ -259,6 +393,7 @@
                 <li>
                   <a href="https://twitter.com/">
                     <img
+                      class="image-social-footer"
                       src="./image/twitter.svg"
                       alt=""
                       width="24"
@@ -277,5 +412,18 @@
         </div>
       </footer>
     </div>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>
