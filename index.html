@@ -34,24 +34,46 @@
     <div class="gradient">
       <header>
         <div class="container header-container">
-          <a class="logo-text" href=""
-            ><img
-              class="logo"
-              src="./image/logo.svg"
-              alt=""
-              width="32"
-              height="32"
-            />CUCINA</a
-          >
-          <nav>
-            <ul class="list">
-              <li><a class="nav-link" href="">Home</a></li>
-              <li><a class="nav-link" href="">Store</a></li>
-              <li><a class="nav-link" href="">Recipes</a></li>
-              <li><a class="nav-link" href="">Gallery</a></li>
-            </ul>
-          </nav>
-          <botton class="botton-header">Contact us</botton>
+          <div class="logo-block">
+            <a class="logo-text" href=""
+              ><img
+                class="logo"
+                src="./image/logo.svg"
+                alt=""
+                width="32"
+                height="32"
+              />CUCINA</a
+            >
+            <nav>
+              <ul class="list">
+                <li><a class="nav-link" href="">Home</a></li>
+                <li><a class="nav-link" href="">Store</a></li>
+                <li><a class="nav-link" href="">Recipes</a></li>
+                <li><a class="nav-link" href="">Gallery</a></li>
+              </ul>
+            </nav>
+            <botton class="botton-header">Contact us</botton>
+          </div>
+
+          <!-- -----------mobile window------------------- -->
+          <div class="menu-burger">
+            <button
+              data-mobile-open
+              class="mobile-button menu-toggle js-open-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+              type="button"
+            >
+              <img
+                class="gg-menu"
+                src="./image/burger.svg"
+                alt=""
+                width="28"
+                height="28"
+              />
+            </button>
+          </div>
+          <!-- -----------mobile window------------------- -->
         </div>
       </header>
       <main>
@@ -412,6 +434,45 @@
         </div>
       </footer>
     </div>
+    <!-- ---------------------mobile menu----------------------------------- -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <div class="modal-mobile form-modal-mobile">
+        <button class="button-close menu-toggle js-close-menu" type="button">
+          <img src="./image/cross.svg" alt="" width="17" height="17" />
+        </button>
+        <form class="form-mobile">
+          <div class="logo-mobile">
+            <a class="logo-text-mobile" href=""
+              ><img
+                class="logo"
+                src="./image/logo.svg"
+                alt=""
+                width="32"
+                height="32"
+              />CUCINA</a
+            >
+          </div>
+          <div class="nav-mobile">
+            <nav>
+              <ul class="list-mobile">
+                <li><a class="nav-link-mobile" href="">Home</a></li>
+                <li><a class="nav-link-mobile" href="">Store</a></li>
+                <li><a class="nav-link-mobile" href="">Recipes</a></li>
+                <li><a class="nav-link-mobile" href="">Gallery</a></li>
+              </ul>
+            </nav>
+            <botton class="botton-header">Contact us</botton>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- ---------------------mobile menu----------------------------------- -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script
       type="text/javascript"
       src="//code.jquery.com/jquery-1.11.0.min.js"
@@ -424,6 +485,7 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/slider.js"></script>
   </body>
 </html>
