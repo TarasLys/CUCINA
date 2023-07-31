@@ -924,7 +924,11 @@ height: 200px;
     gap: 35px;
 }
 
-
+.block-three .video-youtube {
+    border-radius: 5%;
+    width: 245px;
+    height: 200px;
+}
 }
 
 
@@ -986,6 +990,9 @@ height: 200px;
     gap:100px;
 }
 
+.video-youtube {
+    border-radius: 5%;
+}
 
 /* ---------------------------sector3-------------------------- */
 /* ---------------------------sector4-------------------------- */
